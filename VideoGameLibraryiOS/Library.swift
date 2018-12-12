@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class Library {
+    static let sharedInstance = Library()
+    
+    var games = [Game]()
+}
